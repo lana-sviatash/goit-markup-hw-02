@@ -6,7 +6,7 @@
 --main-background-color: #FFFFFF;
 --main-title-color: #FFFFFF;
 --logo-color: #4d5ae5;
---main-text-color: #2E2F42;
+--main-text-color: #2e2f42;
 --block-text-color: #434455;
 --background-btn-color: #4D5AE5;
 --text-btn-color: #FFFFFF;
@@ -28,7 +28,9 @@
 
 body {
     font-family: var(--main-font);
-    color: var(--block-text-color);}
+    color: var(--block-text-color);
+    background-color: var(--main-background-color);
+}
 
 /* ==========================COMPONENTS========================== */
 .modal-btn {
@@ -55,6 +57,7 @@ body {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        color: var(--main-text-color);
 }
 
 .center {
@@ -66,6 +69,7 @@ body {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        color: var(--main-text-color);
 }
 
 .block-text {
@@ -90,8 +94,12 @@ font-family: var(--logo-font);
     color: var(--logo-color);
 }
 
-.logo-part {
+.logo-part-heder {
 color: var(--main-text-color);
+}
+
+.logo-part-footer {
+    color: #f4f4fd;
 }
 
 .menu-item,
