@@ -3,7 +3,9 @@
     sans-serif;
 --logo-font: 'Raleway',
     sans-serif;
+--main-background-color: #FFFFFF;
 --main-title-color: #FFFFFF;
+--logo-color: #4d5ae5;
 --main-text-color: #2E2F42;
 --block-text-color: #434455;
 --background-btn-color: #4D5AE5;
@@ -12,6 +14,7 @@
 --nav-item-color-accent: #404BBF;
 --address-color: #434455;
 --text-light: #F4F4FD;
+--background-color-heder-footer: #2e2f42;
 
 }
 
@@ -25,12 +28,12 @@
 
 body {
     font-family: var(--main-font);
-    color: var(--main-text-color);
-}
+    color: var(--block-text-color);}
 
 /* ==========================COMPONENTS========================== */
 .modal-btn {
-        font-weight: 500;
+        font-family: "Roboto", sans-serif;
+    font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         display: flex;
@@ -79,16 +82,16 @@ body {
 font-family: var(--logo-font);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--logo-color);
 }
 
 .logo-part {
-color: #4D5AE5;
+color: var(--main-text-color);
 }
 
 .menu-item,
@@ -98,6 +101,7 @@ color: #4D5AE5;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        color: var(--main-text-color);
 }
 
 .menu-item:active,
@@ -112,6 +116,10 @@ color: #4D5AE5;
     color: var(--nav-item-color-accent);
 }
 
+.main-address {
+        font-style: normal;
+}
+
 .address-mail,
 .address-phone {
     font-style: normal;
@@ -121,6 +129,10 @@ color: #4D5AE5;
 /* ==========================/HEDER========================== */
 
 /* ==========================HERO========================== */
+.hero {
+    background-color: var(--background-color-heder-footer);
+}
+
 .main-title {
     font-family: 'Roboto', sans-serif;
         font-weight: 700;
@@ -138,10 +150,18 @@ color: #4D5AE5;
 
 
 /* ==========================OUR TEAM========================== */
-
+.our-team {
+    background-color: #F4F4FD
+}
 /* ==========================/OUR TEAM========================== */
-
+.block-item {
+    background-color: #FFFFFF;
+}
 /* ==========================FOOTER========================== */
+.footer {
+    background-color: var(--background-color-heder-footer);
+}
+
 .text-light {
     color: var(--text-light);
 }
@@ -150,6 +170,7 @@ color: #4D5AE5;
 /* ==========================PORTFOLIO-BUTTOM SECTION========================== */
 /* COMPONENTS */
 .choose-btn {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
