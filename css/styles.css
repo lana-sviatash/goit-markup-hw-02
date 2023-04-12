@@ -103,8 +103,7 @@ color: var(--main-text-color);
 }
 
 .menu-item,
-.address-mail,
-.address-phone {
+.address-mail-phone {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -115,12 +114,9 @@ color: var(--main-text-color);
 .menu-item:active,
 .menu-item:hover,
 .menu-item:focus,
-.address-mail:active,
-.address-mail:hover,
-.address-mail:focus,
-.address-phone:active,
-.address-phone:hover,
-.address-phone:focus {
+.address-mail-phone:active,
+.address-mail-phone:hover,
+.address-mail-phone:focus {
     color: var(--nav-item-color-accent);
 }
 
@@ -128,8 +124,7 @@ color: var(--main-text-color);
         font-style: normal;
 }
 
-.address-mail,
-.address-phone {
+.address-mail-phone {
     font-style: normal;
         font-weight: 400;
         color: var(--address-color);
