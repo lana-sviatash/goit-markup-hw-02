@@ -1,0 +1,174 @@
+:root {
+--main-font: 'Roboto',
+    sans-serif;
+--logo-font: 'Raleway',
+    sans-serif;
+--main-title-color: #FFFFFF;
+--main-text-color: #2E2F42;
+--block-text-color: #434455;
+--background-btn-color: #4D5AE5;
+--text-btn-color: #FFFFFF;
+--background-btn-color-accent: #404BBF;
+--nav-item-color-accent: #404BBF;
+--address-color: #434455;
+--text-light: #F4F4FD;
+
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-text-color);
+}
+
+/* ==========================COMPONENTS========================== */
+.modal-btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        background: var(--background-btn-color);
+        color: var(--text-btn-color);
+        cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background: var(--background-btn-color-accent);
+}
+
+.block-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.center {
+    text-align: center;
+}
+
+.block-item-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.block-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--block-text-color);
+}
+
+/* ==========================/COMPONENTS========================== */
+
+/* ==========================HEDER========================== */
+.logo {
+font-family: var(--logo-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.logo-part {
+color: #4D5AE5;
+}
+
+.menu-item,
+.address-mail,
+.address-phone {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.menu-item:active,
+.menu-item:hover,
+.menu-item:focus,
+.address-mail:active,
+.address-mail:hover,
+.address-mail:focus,
+.address-phone:active,
+.address-phone:hover,
+.address-phone:focus {
+    color: var(--nav-item-color-accent);
+}
+
+.address-mail,
+.address-phone {
+    font-style: normal;
+        font-weight: 400;
+        color: var(--address-color);
+}
+/* ==========================/HEDER========================== */
+
+/* ==========================HERO========================== */
+.main-title {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;    
+        color: var(--main-title-color);
+}
+/* ==========================/HERO========================== */
+
+/* ==========================ADVANTAGES========================== */
+
+/* ==========================/ADVANTAGES========================== */
+
+
+/* ==========================OUR TEAM========================== */
+
+/* ==========================/OUR TEAM========================== */
+
+/* ==========================FOOTER========================== */
+.text-light {
+    color: var(--text-light);
+}
+/* ==========================FOOTER========================== */
+
+/* ==========================PORTFOLIO-BUTTOM SECTION========================== */
+/* COMPONENTS */
+.choose-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.choose-btn:hover,
+.choose-btn:focus {
+    color: #FFFFFF;
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* ==========================/PORTFOLIO-BUTTOM SECTION========================== */
